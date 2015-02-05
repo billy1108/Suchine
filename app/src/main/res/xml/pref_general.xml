@@ -3,12 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditTextPreference
-        android:title="@string/pref_location_label"
-        android:key="@string/pref_location_key"
-        android:defaultValue="@string/pref_location_default"
-        android:inputType="text"
-        android:singleLine="true" />
+    <PreferenceCategory
+        android:title="Preference Location">
+        <EditTextPreference
+            android:title="@string/pref_location_label"
+            android:key="@string/pref_location_key"
+            android:defaultValue="@string/pref_location_default"
+            android:inputType="text"
+            android:singleLine="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Preference units">
+        <ListPreference
+            android:title="@string/pref_temperate_label"
+            android:key="@string/pref_temperate_key"
+            android:defaultValue="@string/pref_location_default"
+            android:entries="@array/pref_units_options"
+            android:entryValues="@array/pref_units_value" />
+    </PreferenceCategory>
+
+
 
 
 

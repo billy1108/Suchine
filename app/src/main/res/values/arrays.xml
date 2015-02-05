@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_units_value">
+        <item>unit_centuries</item>
+        <item>unit_fahrenheit</item>
+    </string-array>
+    <string-array name="pref_units_options">
+        <item>Centuries</item>
+        <item>Fahrenheit</item>
+    </string-array>
+</resources>
